@@ -1,0 +1,24 @@
+﻿  WindSpeedSensorBuilder.cpp
+  WindSpeedSensor.cpp
+  Users.cpp
+  UserRights.cpp
+  TxtFileLogger.cpp
+  TemperatureSensorBuilder.cpp
+  TemperatureSensor.cpp
+  Sensor.cpp
+  SecureInput.cpp
+  PressureSensor.cpp
+  PessureSensorBuilder.cpp
+  OverFlowChecker.cpp
+  Manager.cpp
+  main.cpp
+  LoggerFactory.cpp
+  LoggerDecorator.cpp
+  Device.cpp
+  BinFileLogger.cpp
+  Assistant.cpp
+  Admin.cpp
+  Generating Code...
+Admin.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  SecureSoftware_2.9.vcxproj -> C:\Users\HP\Desktop\CS2S562_CW1_15003469_Hamad_Al-thani\Debug\SecureSoftware_2.9.exe
+  SecureSoftware_2.9.vcxproj -> C:\Users\HP\Desktop\CS2S562_CW1_15003469_Hamad_Al-thani\Debug\SecureSoftware_2.9.pdb (Partial PDB)

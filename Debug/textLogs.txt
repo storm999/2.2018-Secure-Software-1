@@ -1,0 +1,42 @@
+
+Time: Sun Feb 25 13:52:44 2018
+Temperature Sensor 1:
+Internal temperature: 40 celcius degree
+Internal voltage: 9 volt
+Value: 53 m per second
+Pressure Sensor 1:
+Internal temperature: 50 celcius degree
+Internal voltage: 12 volt
+Value: 25 celcius degree
+Wind Speed Sensor 1:
+Internal temperature: 60 celcius degree
+Internal voltage: 15 volt
+Value: 113 millibar
+
+Time: Sun Feb 25 13:52:57 2018
+Temperature Sensor 1:
+Internal temperature: 40 celcius degree
+Internal voltage: 9 volt
+Value: 55 m per second
+Pressure Sensor 1:
+Internal temperature: 50 celcius degree
+Internal voltage: 12 volt
+Value: 23 celcius degree
+Wind Speed Sensor 1:
+Internal temperature: 60 celcius degree
+Internal voltage: 15 volt
+Value: 115 millibar
+
+Time: Sun Feb 25 13:53:00 2018
+Temperature Sensor 1:
+Internal temperature: 40 celcius degree
+Internal voltage: 9 volt
+Value: 58 m per second
+Pressure Sensor 1:
+Internal temperature: 50 celcius degree
+Internal voltage: 12 volt
+Value: 20 celcius degree
+Wind Speed Sensor 1:
+Internal temperature: 60 celcius degree
+Internal voltage: 15 volt
+Value: 115 millibar

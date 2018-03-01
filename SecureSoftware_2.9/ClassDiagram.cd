@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="assistant">
+    <Position X="0.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAQCAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Assistant.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="device">
+    <Position X="9.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAxICAQBAAAAIAAAAAAQAAIAAAAAQAAABgIAREAA=</HashCode>
+      <FileName>Device.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="admin">
+    <Position X="4.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAEAAAAAgAAAAAACAAA=</HashCode>
+      <FileName>Admin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="manager">
+    <Position X="2.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAIAAAAAAAAAEAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Manager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="userRights">
+    <Position X="0.5" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAgAAQAAAAAAIAAgAAIAAEAAAAAAAAACAAAA=</HashCode>
+      <FileName>UserRights.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="users">
+    <Position X="3.25" Y="1" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IAAWAAAgAAAAAACAAgAAAAEAEAJAAAABwAgAAAkQIAQ=</HashCode>
+      <FileName>Users.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BinFileLogger">
+    <Position X="7.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BinFileLogger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logger">
+    <Position X="9.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoggerDecorator">
+    <Position X="11.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LoggerDecorator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoggerFactory">
+    <Position X="7.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LoggerFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TxtFileLogger">
+    <Position X="9.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TxtFileLogger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pressureSensor">
+    <Position X="13.75" Y="5.25" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="pressureSensor::pressureSensorBuilder">
+        <TypeIdentifier>
+          <NewMemberFileName>PressureSensor.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAQAAAAAAAAAAAAAAAgAAgAACAgAAAAAQAAA=</HashCode>
+      <FileName>PressureSensor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sensor">
+    <Position X="16.25" Y="0.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="sensor::sensorBuilder" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sensor.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAABABkAIQAAABAAAAAAAAAAABAEgQADAwAQAAAQAAA=</HashCode>
+      <FileName>Sensor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="temperatureSensor">
+    <Position X="16.25" Y="5.25" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="temperatureSensor::temperatureSensorBuilder">
+        <TypeIdentifier>
+          <NewMemberFileName>TemperatureSensor.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAQAAAAAAAAAAAAAAAAAAgAACAAYAAAEQAAA=</HashCode>
+      <FileName>TemperatureSensor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="windSpeedSensor">
+    <Position X="18.75" Y="5.25" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="windSpeedSensor::windSpeedSensorBuilder">
+        <TypeIdentifier>
+          <NewMemberFileName>WindSpeedSensor.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAQAIAAAAEAAAAAAAAAAAgQACAAAAAAAQAAA=</HashCode>
+      <FileName>WindSpeedSensor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OverFlowChecker">
+    <Position X="13" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAIAAACAAAAAABQAAAAAAAAAAA=</HashCode>
+      <FileName>OverFlowChecker.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="secureInput">
+    <Position X="6.75" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAACAAAAAAAEAEA=</HashCode>
+      <FileName>SecureInput.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="LoggerType">
+    <Position X="11.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Logger.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
